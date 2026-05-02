@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React, Vite, and Tailwind CSS.
 
-🔗 **Live site:** [your-live-url.netlify.app](https://your-live-url.netlify.app)
+🔗 Live site: [portfolio-eight-tan-97.vercel.app](https://portfolio-eight-tan-97.vercel.app)
 
 ---
 
@@ -69,7 +69,7 @@ The output goes into the `dist/` folder — ready to deploy.
 
 ## Deployment
 
-Deployed via **Netlify** / **Vercel** with automatic builds on push to main.
+Deployed via **Vercel** with automatic builds on push to main.
 
 ---
 
