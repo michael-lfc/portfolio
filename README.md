@@ -1,16 +1,80 @@
-# React + Vite
+# Michael Agwogie — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+🔗 Live site: [portfolio-eight-tan-97.vercel.app](https://portfolio-eight-tan-97.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — component-based UI
+- **Vite** — fast development and build tooling
+- **Tailwind CSS** — utility-first styling
+- **JavaScript** — no TypeScript overhead for a static site
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive design — works on all screen sizes
+- Smooth scroll reveal animations
+- Custom animated cursor
+- Project cards with GitHub and live demo links
+- Sections: Hero, About, Technologies, Skills, Projects, Experience, Education, Contact
+
+---
+
+## Projects Showcased
+
+| Project | Stack | Links |
+|---|---|---|
+| Aurum — Project Manager | MERN, TypeScript | [BE](https://github.com/michael-lfc/Task-Manager-backend) · [FE](https://github.com/michael-lfc/project-manager-front-end) · [Live](https://project-manager-front-end-alpha.vercel.app) |
+| TalentFlow LMS | TypeScript, Express, Prisma, PostgreSQL | [BE](https://github.com/team-tango790/talentflow-backend) · [Live](https://talentflow-frontend-two.vercel.app) |
+| SocialApp | MERN, TypeScript | [GitHub](https://github.com/michael-lfc/CodeAlpha_SocialMediaApp) · [Live](https://code-alpha-social-media-app-pearl.vercel.app) |
+| E-Commerce App | MERN | [GitHub](https://github.com/michael-lfc/e-commerce-app) · [Live](https://e-commerce-app-weld-rho.vercel.app) |
+| Tech Blog | MERN | [GitHub](https://github.com/michael-lfc/Tech-blog) · [Live](https://tech-blog-qz17.vercel.app) |
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/michael-lfc/portfolio.git
+
+# Enter the folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The output goes into the `dist/` folder — ready to deploy.
+
+---
+
+## Deployment
+
+Deployed via **Vercel** with automatic builds on push to main.
+
+---
+
+## Contact
+
+- **Email:** realmike44@gmail.com
+- **GitHub:** [github.com/michael-lfc](https://github.com/michael-lfc)
+- **LinkedIn:** [linkedin.com/in/michaelagwogie](https://www.linkedin.com/in/michaelagwogie)
