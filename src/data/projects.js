@@ -1,53 +1,87 @@
+// export const projects = [
+//   {
+//     num: '01',
+//     name: 'Aurum — Project Manager',
+//     desc: 'Full-stack project management platform enabling teams to organize projects, manage tasks, and track workflow. Features real-time updates via Socket.io, JWT auth, role-based access control, and a React frontend.',
+//     tags: ['MongoDB', 'Express', 'React', 'Node.js', 'TypeScript', 'JWT', 'Socket.io'],
+//     links: [
+//       { label: 'BE Repo', url: 'https://github.com/michael-lfc/Task-Manager-backend' },
+//       { label: 'FE Repo', url: 'https://github.com/michael-lfc/project-manager-front-end' },
+//       { label: 'Live Demo', url: 'https://project-manager-front-end-alpha.vercel.app' },
+//     ],
+//   },
+//   {
+//     num: '02',
+//     name: 'TalentFlow LMS',
+//     desc: 'Learning Management System built during internship at Trueminds Innovations. Backend covers auth, course & enrollment management, lesson progress tracking, file uploads via Cloudinary, and automated certificate issuance.',
+//     tags: ['TypeScript', 'Express', 'Prisma', 'PostgreSQL', 'JWT', 'Cloudinary', 'Docker'],
+//     links: [
+//       { label: 'BE Repo', url: 'https://github.com/team-tango790/talentflow-backend' },
+//       { label: 'Live Demo', url: 'https://talentflow-frontend-two.vercel.app/' },
+//     ],
+//   },
+//   {
+//     num: '03',
+//     name: 'Passwell — CBT Platform',
+//     desc: 'CBT examination and assessment platform serving civil servants, paramilitary officers, and recruitment candidates. Transformed a static website into a fully data-driven application — scaffolded the database, built backend modules for exam workflows, automated grading, candidate data, and server-side exam timing.',
+//     tags: ['Node.js', 'Express', 'PostgreSQL', 'Prisma', 'TypeScript', 'Full Stack'],
+//     links: [
+//       { label: 'Repo', url: 'https://github.com/builditlab2025/Passwell-webapp' },
+//       { label: 'Live Demo', url: 'https://passwellglobal.com' },
+//     ],
+//   },
+//   {
+//     num: '04',
+//     name: 'DomyHeritage — PropTech',
+//     desc: 'Backend for a live property-listing platform built with NestJS, TypeScript, PostgreSQL, and Prisma. Features a 28-model relational schema, JWT & dual-token auth, OTP verification, RBAC, Paystack payments with HMAC webhook verification, escrow workflow, BVN/NIN identity verification, Redis caching, Winston logging, and full Swagger/OpenAPI documentation.',
+//     tags: ['NestJS', 'TypeScript', 'PostgreSQL', 'Prisma', 'Redis', 'Paystack', 'Swagger'],
+//     links: [
+//       { label: 'BE Repo', url: 'https://github.com/D1stclass-Real-Tech/DomyHeritage-Backend' },
+//       { label: 'Live Demo', url: 'https://domyheritage.com' },
+//     ],
+//   },
+// ]
+
 export const projects = [
   {
     num: '01',
-    name: 'Aurum — Project Manager',
-    desc: 'Full-stack project management platform built with the MERN stack and TypeScript. Features task boards, team management, and a clean dashboard with a decoupled backend and React frontend.',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js', 'TypeScript', 'JWT'],
-    links: [
-      { label: 'BE Repo', url: 'https://github.com/michael-lfc/Task-Manager-backend' },
-      { label: 'FE Repo', url: 'https://github.com/michael-lfc/project-manager-front-end' },
-      { label: 'Live Demo', url: 'https://project-manager-front-end-alpha.vercel.app' },
-    ],
-  },
-  {
-    num: '02',
     name: 'TalentFlow LMS',
-    desc: 'Learning Management System built during internship at Trueminds Innovations. Backend covers auth, course & enrollment management, lesson progress tracking, and automated certificate issuance on completion.',
-    tags: ['TypeScript', 'Express', 'Prisma', 'PostgreSQL', 'JWT'],
+    desc: 'Learning Management System built during internship at Trueminds Innovations. Backend covers auth, course & enrollment management, lesson progress tracking, file uploads via Cloudinary, and automated certificate issuance.',
+    tags: ['TypeScript', 'Express', 'Prisma', 'PostgreSQL', 'JWT', 'Cloudinary', 'Docker'],
     links: [
       { label: 'BE Repo', url: 'https://github.com/team-tango790/talentflow-backend' },
       { label: 'Live Demo', url: 'https://talentflow-frontend-two.vercel.app/' },
     ],
   },
   {
-    num: '03',
-    name: 'SocialApp',
-    desc: 'Social media platform with authentication, post interactions, and a follow system. Built with TypeScript across the full stack and JWT-protected routes throughout.',
-    tags: ['MERN', 'TypeScript', 'JWT', 'REST API'],
+    num: '02',
+    name: 'Passwell — CBT Platform',
+    desc: 'CBT examination and assessment platform serving civil servants, paramilitary officers, and recruitment candidates. Transformed a static website into a fully data-driven application — scaffolded the database, built backend modules for exam workflows, automated grading, candidate data, and server-side exam timing.',
+    tags: ['Node.js', 'Express', 'PostgreSQL', 'Prisma', 'TypeScript', 'Full Stack'],
     links: [
-      { label: 'GitHub', url: 'https://github.com/michael-lfc/CodeAlpha_SocialMediaApp' },
-      { label: 'Live Demo', url: 'https://code-alpha-social-media-app-pearl.vercel.app/' },
+      { label: 'Repo', url: 'https://github.com/builditlab2025/Passwell-webapp' },
+      { label: 'Live Demo', url: 'https://passwellglobal.com' },
+    ],
+  },
+  {
+    num: '03',
+    name: 'DomyHeritage — PropTech',
+    desc: 'Backend for a live property-listing platform built with NestJS, TypeScript, PostgreSQL, and Prisma. Features a 28-model relational schema, JWT & dual-token auth, OTP verification, RBAC, Paystack payments with HMAC webhook verification, escrow workflow, BVN/NIN identity verification, Redis caching, Winston logging, and full Swagger/OpenAPI documentation.',
+    tags: ['NestJS', 'TypeScript', 'PostgreSQL', 'Prisma', 'Redis', 'Paystack', 'Swagger'],
+    links: [
+      { label: 'BE Repo', url: 'https://github.com/D1stclass-Real-Tech/DomyHeritage-Backend' },
+      { label: 'Live Demo', url: 'https://domyheritage.com' },
     ],
   },
   {
     num: '04',
-    name: 'E-Commerce App',
-    desc: 'Full-stack e-commerce platform with authentication, product browsing, cart, and order management. Includes an admin dashboard for managing users and products.',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT'],
+    name: 'Aurum — Project Manager',
+    desc: 'Full-stack project management platform enabling teams to organize projects, manage tasks, and track workflow. Features real-time updates via Socket.io, JWT auth, role-based access control, and a React frontend.',
+    tags: ['MongoDB', 'Express', 'React', 'Node.js', 'TypeScript', 'JWT', 'Socket.io'],
     links: [
-      { label: 'GitHub', url: 'https://github.com/michael-lfc/e-commerce-app' },
-      { label: 'Live Demo', url: 'https://e-commerce-app-weld-rho.vercel.app/' },
-    ],
-  },
-  {
-    num: '05',
-    name: 'Tech Blog',
-    desc: 'Blogging platform featuring authentication, post comments, and reactions. Fully responsive UI deployed across Vercel (frontend) and Render (backend).',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-    links: [
-      { label: 'GitHub', url: 'https://github.com/michael-lfc/Tech-blog' },
-      { label: 'Live Demo', url: 'https://tech-blog-qz17.vercel.app' },
+      { label: 'BE Repo', url: 'https://github.com/michael-lfc/Task-Manager-backend' },
+      { label: 'FE Repo', url: 'https://github.com/michael-lfc/project-manager-front-end' },
+      { label: 'Live Demo', url: 'https://project-manager-front-end-alpha.vercel.app' },
     ],
   },
 ]
