@@ -5,7 +5,7 @@ export const techGroups = [
   },
   {
     label: 'Backend',
-    items: ['Node.js', 'Express.js', 'RESTful APIs', 'JWT Authentication', 'JSON'],
+    items: ['Node.js', 'Express.js', 'RESTful APIs', 'NestJS', 'JWT Authentication', 'JSON'],
   },
   {
     label: 'Databases',
