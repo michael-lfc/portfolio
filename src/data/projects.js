@@ -57,7 +57,7 @@ export const projects = [
     num: '02',
     name: 'Passwell — CBT Platform',
     desc: 'CBT examination and assessment platform serving civil servants, paramilitary officers, and recruitment candidates. Transformed a static website into a fully data-driven application — scaffolded the database, built backend modules for exam workflows, automated grading, candidate data, and server-side exam timing.',
-    tags: ['Node.js', 'Express', 'PostgreSQL', 'Prisma', 'TypeScript', 'Full Stack'],
+    tags: ['Node.js', 'Express', 'NestJS', 'PostgreSQL', 'Prisma', 'TypeScript', 'Full Stack'],
     links: [
       { label: 'Repo', url: 'https://github.com/builditlab2025/Passwell-webapp' },
       { label: 'Live Demo', url: 'https://passwellglobal.com' },
